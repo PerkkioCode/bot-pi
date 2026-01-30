@@ -41,7 +41,7 @@ YTDL_OPTIONS = {
     "quiet": True,
     "default_search": "auto",
     "source_address": "0.0.0.0",
-    "js_runtimes": ["node"],
+    "js_runtimes": {"node": {}},
 }
 ytdl = YoutubeDL(YTDL_OPTIONS)
 
